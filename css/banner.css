@@ -1,0 +1,92 @@
+/* aqui van los estilos de la portada */
+.cont_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/arq1.jpg');
+}
+
+.ewk_sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* 50% para arriba y abajo  y asi ya esta centrado el texto*/
+    transform: translate(-50%,-50%);
+    /* estas propiedades son para si alguine navega desde otros navegadores, como safari, opera entre otros*/
+
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    margin: auto;
+}
+
+.ewk_sombra hr{
+    border-top: 1px solid #fff;
+}
+
+.ewk_sombra h1{
+    font-size: 8vh;
+    margin-bottom: 10px;
+}
+
+.ewk_sombra p{
+    font-size: 4vh;
+    margin-bottom: 10px;
+}
+
+.ewk_cont_banner_link{
+    /* esto es responsive gracias al with que defini abajo de 150px */
+    /* para que no salgan del elemnto padre */
+    position: relative;
+    margin: 15px;
+}
+
+.ewk_cont_banner_link a{
+    /* este position relative es para poder trabajor con los top y left */
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+    font-size: 25px;
+}
+
+.ewk_cont_banner_link a:hover{
+    background: #fff;
+    color: #111;
+}
+
+/* esto es para el efecto keyframe */
+.ewk_banner_link{
+opacity: 0;
+animation: ewk_keyframes_aparecer_arriba 1s;
+/* para que se vea en todos los navegadores */
+-webkit-animation: ewk_keyframes_aparecer_arriba 1s;
+/* esto es para el modo de animation */
+animation-fill-mode: forwards;
+}
+
+.ewk_banner_link_1{
+    opacity: 0;
+    animation: ewk_keyframes_aparecer_arriba 1s;
+    -webkit-animation: ewk_keyframes_aparecer_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    }
+
+    .ewk_banner_link_2{
+        opacity: 0;
+        animation: ewk_keyframes_aparecer_arriba 1s;
+        -webkit-animation: ewk_keyframes_aparecer_arriba 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+        }

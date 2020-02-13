@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.ewk_navbas{
+    background: rgba(255,255,255,.7) !important;
+}
+
+.ewk_navbas div, .ewk_navbas ul{
+    background: transparent !important;
+}
+
+.ewk_cont_sesion_1{
+    padding: 10%;
+}
+
+.ewk_cont_sesion_1_link{
+    padding: 5%;
+}
+
+.ewk_cont_sesion_1_link a{
+    width: 200px;
+}
+
+.ewk_cont_sesion_1 hr{
+    border-top: 1px solid rgba(1,1,1,0.3);
+}
+
+.icon{
+    font-size: 40px;
+    /* para separarlos */
+    margin: 3%;
+}
+
+.ewk_content_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/arq2.jpg');
+    position: relative;
+    padding: 10px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.ewk_content_banner_2 .row{
+    background: rgba(1,1,1,0.7);
+    color: #fff;
+    padding: 2%;
+}
+
+.ewk_content_img{
+    padding: 5%;
+}
+
+.ewk_cont_footer{
+    background: rgba(1,1,1,0.7);
+    padding: 10%;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.ewk_cont_footer a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cont_img_footer{
+    padding: 5%;
+}
